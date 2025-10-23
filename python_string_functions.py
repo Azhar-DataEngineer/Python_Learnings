@@ -55,4 +55,28 @@ phone_number = "+49 (123) 456-7890"
 print(phone_number.replace("+","00").replace(" ","").replace("(","") \
     .replace(")","").replace("-",""))
 
-  
+ 
+# Join transformation
+
+first_name = "Azharuddin"
+last_name = "Khan"
+
+full_name = first_name + " " + last_name
+print(full_name)  
+
+folder = "C:/Users/Azharuddin/Documents"
+file = "report.pdf"
+full_file_path = folder + "/" + file
+print(full_file_path)
+
+# f-strings 
+
+name = "Azharuddin"
+age = 39
+is_student = False
+
+print("My name is " + name + " I am " + str(age) + " years old" + " and my student status  " + str(is_student))
+
+print(f"My name is {name}, i am {age} years old and my student status is {is_student}")
+
+ 
