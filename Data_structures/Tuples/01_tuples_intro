@@ -1,0 +1,26 @@
+my_list = [10,20,30,40,50,100,90,10,1000]
+
+print(my_list)
+# remembers the orders 
+# Allow duplicates 
+# INdexed access
+# List are mutable
+print(my_list[0])  # first item
+
+# Tuples
+
+
+my_tuple = (10,20,30,10)
+
+print(my_tuple)
+# ordered
+# allows duplicates
+
+print(my_tuple[1])
+#`indexed access
+
+# my_tuple[4] = 20
+# tuples are immutable
+
+print(sorted(my_tuple))
+# returns a new sorted list not a tuple
